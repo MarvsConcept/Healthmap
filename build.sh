@@ -12,13 +12,16 @@
 # exit on error
 # set -o errexit
 
-# Install GDAL and GEOS
+# Install GDAL and dependencies
 sudo apt-get update
-sudo apt-get install -y gdal-bin libgdal-dev libgeos-dev
+sudo apt-get install -y gdal-bin libgdal-dev
 
-# Set up environment variables for GDAL and GEOS (optional if set in settings.py)
+# Ensure GDAL paths are correctly set
 export CPLUS_INCLUDE_PATH=/usr/include/gdal
 export C_INCLUDE_PATH=/usr/include/gdal
+
+# Optional: find the GDAL path dynamically if it differs
+export GDAL_LIBRARY_PATH=$(gdal-config --libs | awk '{print $1}' | sed 's/-L//g')
 
 # Install Python dependencies
 pip install -r requirements.txt

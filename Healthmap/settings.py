@@ -169,14 +169,18 @@ LEAFLET_CONFIG = {
 # GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal309.dll'  # Replace XXX with the version number
 # GEOS_LIBRARY_PATH = r'C:\OSGeo4W\bin\geos_c.dll'
 
-import platform
+# import platform
 
-# Detect if running on Windows or Linux
-if platform.system() == 'Windows':
-    # Local development (Windows)
-    GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal309.dll'
-    GEOS_LIBRARY_PATH = r'C:\OSGeo4W\bin\geos_c.dll'
-else:
-    # Production (Linux on Render)
-    GDAL_LIBRARY_PATH = '/usr/lib/libgdal.so'  # Path to GDAL library on Linux
-    GEOS_LIBRARY_PATH = '/usr/lib/libgeos_c.so'  # Path to GEOS library on Linux
+# # Detect if running on Windows or Linux
+# if platform.system() == 'Windows':
+#     # Local development (Windows)
+#     GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal309.dll'
+#     GEOS_LIBRARY_PATH = r'C:\OSGeo4W\bin\geos_c.dll'
+# else:
+#     # Production (Linux on Render)
+#     GDAL_LIBRARY_PATH = '/usr/lib/libgdal.so'  # Path to GDAL library on Linux
+#     GEOS_LIBRARY_PATH = '/usr/lib/libgeos_c.so'  # Path to GEOS library on Linux
+
+
+# GDAL Library Path (detected from environment or fallback)
+GDAL_LIBRARY_PATH = os.getenv('GDAL_LIBRARY_PATH', '/usr/lib/libgdal.so')
