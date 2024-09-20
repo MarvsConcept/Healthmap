@@ -7,9 +7,10 @@
 # python manage.py collectstatic --no-input
 # python manage.py migrate
 
+
 #!/usr/bin/env bash
 # exit on error
-set -o errexit
+# set -o errexit
 
 # Install GDAL and dependencies
 sudo apt-get update
