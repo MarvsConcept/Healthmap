@@ -1,0 +1,1154 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-08-01T09:49:30Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479390384",
+        "amenity": "clinic",
+        "building": "yes",
+        "electricity": "grid",
+        "generator:source": "solar;generator:source = diesel",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.1834494,
+              7.2406212
+            ],
+            [
+              5.1833739,
+              7.2405482
+            ],
+            [
+              5.1834089,
+              7.2405125
+            ],
+            [
+              5.1833696,
+              7.2404746
+            ],
+            [
+              5.1836564,
+              7.2401824
+            ],
+            [
+              5.1836996,
+              7.2402241
+            ],
+            [
+              5.1837391,
+              7.2401838
+            ],
+            [
+              5.183809,
+              7.2402513
+            ],
+            [
+              5.1837137,
+              7.2403484
+            ],
+            [
+              5.1837515,
+              7.2403849
+            ],
+            [
+              5.1838417,
+              7.2402929
+            ],
+            [
+              5.1840895,
+              7.2405322
+            ],
+            [
+              5.1839727,
+              7.2406512
+            ],
+            [
+              5.183931,
+              7.2406109
+            ],
+            [
+              5.1839262,
+              7.2406158
+            ],
+            [
+              5.1839126,
+              7.2406026
+            ],
+            [
+              5.1839018,
+              7.2406137
+            ],
+            [
+              5.1839149,
+              7.2406264
+            ],
+            [
+              5.183923,
+              7.2406181
+            ],
+            [
+              5.1839527,
+              7.2406468
+            ],
+            [
+              5.1839446,
+              7.2406551
+            ],
+            [
+              5.1839507,
+              7.240661
+            ],
+            [
+              5.1839236,
+              7.2406886
+            ],
+            [
+              5.1838748,
+              7.2406414
+            ],
+            [
+              5.1838467,
+              7.24067
+            ],
+            [
+              5.1838946,
+              7.2407163
+            ],
+            [
+              5.1838701,
+              7.2407413
+            ],
+            [
+              5.1838616,
+              7.2407331
+            ],
+            [
+              5.1838339,
+              7.2407614
+            ],
+            [
+              5.1838079,
+              7.2407363
+            ],
+            [
+              5.1838356,
+              7.240708
+            ],
+            [
+              5.1838229,
+              7.2406957
+            ],
+            [
+              5.1837567,
+              7.2407631
+            ],
+            [
+              5.1838082,
+              7.2408129
+            ],
+            [
+              5.1837282,
+              7.2408944
+            ],
+            [
+              5.1835001,
+              7.2406741
+            ],
+            [
+              5.1835987,
+              7.2405736
+            ],
+            [
+              5.1835461,
+              7.2405227
+            ],
+            [
+              5.1834494,
+              7.2406212
+            ]
+          ]
+        ]
+      },
+      "id": "way/479390384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479390385",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.1841145,
+              7.2408711
+            ],
+            [
+              5.1841879,
+              7.2407948
+            ],
+            [
+              5.1842993,
+              7.2409002
+            ],
+            [
+              5.1842259,
+              7.2409765
+            ],
+            [
+              5.1841145,
+              7.2408711
+            ]
+          ]
+        ]
+      },
+      "id": "way/479390385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479390387",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.1842095,
+              7.2413667
+            ],
+            [
+              5.1841126,
+              7.241271
+            ],
+            [
+              5.1842026,
+              7.2411812
+            ],
+            [
+              5.1842564,
+              7.2412342
+            ],
+            [
+              5.1842356,
+              7.2412549
+            ],
+            [
+              5.1842554,
+              7.2412744
+            ],
+            [
+              5.1842235,
+              7.2413062
+            ],
+            [
+              5.1842469,
+              7.2413293
+            ],
+            [
+              5.1842095,
+              7.2413667
+            ]
+          ]
+        ]
+      },
+      "id": "way/479390387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479390389",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.184397,
+              7.2411693
+            ],
+            [
+              5.1843622,
+              7.2412055
+            ],
+            [
+              5.1843436,
+              7.2411879
+            ],
+            [
+              5.1843078,
+              7.2412252
+            ],
+            [
+              5.1842872,
+              7.2412057
+            ],
+            [
+              5.1842672,
+              7.2412265
+            ],
+            [
+              5.1842088,
+              7.2411713
+            ],
+            [
+              5.1842995,
+              7.241077
+            ],
+            [
+              5.184397,
+              7.2411693
+            ]
+          ]
+        ]
+      },
+      "id": "way/479390389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479390392",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.1843213,
+              7.2410375
+            ],
+            [
+              5.1843931,
+              7.2409653
+            ],
+            [
+              5.1845307,
+              7.2410999
+            ],
+            [
+              5.184459,
+              7.2411721
+            ],
+            [
+              5.1843213,
+              7.2410375
+            ]
+          ]
+        ]
+      },
+      "id": "way/479390392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/482469425",
+        "amenity": "clinic",
+        "building": "yes",
+        "electricity": "grid",
+        "generator:source": "diesel",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.2026346,
+              7.2523659
+            ],
+            [
+              5.2025899,
+              7.2521224
+            ],
+            [
+              5.2026329,
+              7.2521146
+            ],
+            [
+              5.2026272,
+              7.2520833
+            ],
+            [
+              5.2026728,
+              7.252075
+            ],
+            [
+              5.2026824,
+              7.2521274
+            ],
+            [
+              5.2026955,
+              7.2521251
+            ],
+            [
+              5.2027363,
+              7.2523475
+            ],
+            [
+              5.2026346,
+              7.2523659
+            ]
+          ]
+        ]
+      },
+      "id": "way/482469425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/504277604",
+        "amenity": "clinic",
+        "building": "yes",
+        "electricity": "grid",
+        "generator:source": "solar;generator:source = diesel",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.1896692,
+              7.2393036
+            ],
+            [
+              5.1897292,
+              7.2392443
+            ],
+            [
+              5.189793,
+              7.2393079
+            ],
+            [
+              5.189733,
+              7.2393672
+            ],
+            [
+              5.1896692,
+              7.2393036
+            ]
+          ]
+        ]
+      },
+      "id": "way/504277604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/584299072",
+        "amenity": "clinic",
+        "building": "yes",
+        "electricity": "grid",
+        "generator:source": "none",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.1992964,
+              7.2279596
+            ],
+            [
+              5.1992973,
+              7.2279252
+            ],
+            [
+              5.1993085,
+              7.2279255
+            ],
+            [
+              5.1993095,
+              7.2278883
+            ],
+            [
+              5.1995738,
+              7.2278955
+            ],
+            [
+              5.1995718,
+              7.227967
+            ],
+            [
+              5.1992964,
+              7.2279596
+            ]
+          ]
+        ]
+      },
+      "id": "way/584299072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/925754125",
+        "amenity": "clinic",
+        "building": "yes",
+        "generator:source": "solar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.2383957,
+              7.1694028
+            ],
+            [
+              5.2387045,
+              7.1691977
+            ],
+            [
+              5.2387643,
+              7.1692863
+            ],
+            [
+              5.2384555,
+              7.1694914
+            ],
+            [
+              5.2383957,
+              7.1694028
+            ]
+          ]
+        ]
+      },
+      "id": "way/925754125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1169558004",
+        "amenity": "hospital",
+        "building": "yes",
+        "check_date": "2024-05-26",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "internet_access": "no",
+        "name": "New FUTA Clinic",
+        "operator:type": "public",
+        "source": "local knowledge"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.1450026,
+              7.2979762
+            ],
+            [
+              5.1450525,
+              7.297732
+            ],
+            [
+              5.1450788,
+              7.2977373
+            ],
+            [
+              5.1450876,
+              7.2976946
+            ],
+            [
+              5.144962,
+              7.2976693
+            ],
+            [
+              5.1449937,
+              7.2975139
+            ],
+            [
+              5.1450929,
+              7.2975338
+            ],
+            [
+              5.1451756,
+              7.2971288
+            ],
+            [
+              5.1453369,
+              7.2971612
+            ],
+            [
+              5.1452469,
+              7.2976021
+            ],
+            [
+              5.1453058,
+              7.297614
+            ],
+            [
+              5.1452901,
+              7.2976912
+            ],
+            [
+              5.1452311,
+              7.2976794
+            ],
+            [
+              5.1451639,
+              7.2980086
+            ],
+            [
+              5.1450026,
+              7.2979762
+            ]
+          ]
+        ]
+      },
+      "id": "way/1169558004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1223920738",
+        "amenity": "clinic",
+        "building": "yes",
+        "electricity": "grid",
+        "generator:source": "none",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.1335388,
+              7.1681333
+            ],
+            [
+              5.1336086,
+              7.1680156
+            ],
+            [
+              5.1336745,
+              7.168054
+            ],
+            [
+              5.1336048,
+              7.1681717
+            ],
+            [
+              5.1335388,
+              7.1681333
+            ]
+          ]
+        ]
+      },
+      "id": "way/1223920738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1224480856",
+        "amenity": "clinic",
+        "building": "yes",
+        "electricity": "grid",
+        "generator:source": "solar",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.2170701,
+              7.1996232
+            ],
+            [
+              5.2169894,
+              7.1995227
+            ],
+            [
+              5.2170896,
+              7.1994435
+            ],
+            [
+              5.2171075,
+              7.1994658
+            ],
+            [
+              5.2171215,
+              7.1994548
+            ],
+            [
+              5.2171441,
+              7.1994831
+            ],
+            [
+              5.217127,
+              7.1994966
+            ],
+            [
+              5.217167,
+              7.1995466
+            ],
+            [
+              5.2170701,
+              7.1996232
+            ]
+          ]
+        ]
+      },
+      "id": "way/1224480856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1242378990",
+        "amenity": "clinic",
+        "building": "yes",
+        "electricity": "grid",
+        "generator:source": "none",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.1606183,
+              7.2606167
+            ],
+            [
+              5.160585,
+              7.2604338
+            ],
+            [
+              5.1606761,
+              7.2604175
+            ],
+            [
+              5.1606931,
+              7.260511
+            ],
+            [
+              5.1606739,
+              7.2605145
+            ],
+            [
+              5.1606901,
+              7.2606039
+            ],
+            [
+              5.1606183,
+              7.2606167
+            ]
+          ]
+        ]
+      },
+      "id": "way/1242378990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1242426976",
+        "amenity": "clinic",
+        "building": "yes",
+        "electricity": "grid",
+        "generator:source": "solar;generator:source = diesel",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.176684,
+              7.2477933
+            ],
+            [
+              5.1766862,
+              7.2477342
+            ],
+            [
+              5.1767461,
+              7.2477363
+            ],
+            [
+              5.1767443,
+              7.2477856
+            ],
+            [
+              5.1767558,
+              7.2477841
+            ],
+            [
+              5.1767874,
+              7.2480257
+            ],
+            [
+              5.1767799,
+              7.2480267
+            ],
+            [
+              5.1768006,
+              7.2481853
+            ],
+            [
+              5.1767247,
+              7.2481951
+            ],
+            [
+              5.1767129,
+              7.2481046
+            ],
+            [
+              5.1766661,
+              7.2481107
+            ],
+            [
+              5.1766339,
+              7.2478646
+            ],
+            [
+              5.1766725,
+              7.2478596
+            ],
+            [
+              5.1766642,
+              7.2477959
+            ],
+            [
+              5.176684,
+              7.2477933
+            ]
+          ]
+        ]
+      },
+      "id": "way/1242426976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1242841250",
+        "amenity": "clinic",
+        "building": "yes",
+        "electricity": "grid",
+        "generator:source": "solar;generator:source = diesel",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.2271299,
+              7.2818056
+            ],
+            [
+              5.2270857,
+              7.2817165
+            ],
+            [
+              5.2271894,
+              7.2816659
+            ],
+            [
+              5.2271672,
+              7.2816211
+            ],
+            [
+              5.2272544,
+              7.2815787
+            ],
+            [
+              5.2272766,
+              7.2816236
+            ],
+            [
+              5.2273688,
+              7.2815786
+            ],
+            [
+              5.2274129,
+              7.2816676
+            ],
+            [
+              5.2271299,
+              7.2818056
+            ]
+          ]
+        ]
+      },
+      "id": "way/1242841250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1242841732",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.1896294,
+              7.2393825
+            ],
+            [
+              5.1896492,
+              7.2393412
+            ],
+            [
+              5.1897483,
+              7.239388
+            ],
+            [
+              5.1897285,
+              7.2394293
+            ],
+            [
+              5.1896294,
+              7.2393825
+            ]
+          ]
+        ]
+      },
+      "id": "way/1242841732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1243397837",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.1840093,
+              7.2411766
+            ],
+            [
+              5.1839163,
+              7.2410877
+            ],
+            [
+              5.1839288,
+              7.2410748
+            ],
+            [
+              5.1839164,
+              7.2410629
+            ],
+            [
+              5.183945,
+              7.2410334
+            ],
+            [
+              5.1839575,
+              7.2410454
+            ],
+            [
+              5.1839756,
+              7.2410268
+            ],
+            [
+              5.1839634,
+              7.2410152
+            ],
+            [
+              5.1840026,
+              7.2409748
+            ],
+            [
+              5.1840148,
+              7.2409864
+            ],
+            [
+              5.1840447,
+              7.2409557
+            ],
+            [
+              5.1840365,
+              7.2409479
+            ],
+            [
+              5.1840894,
+              7.2408934
+            ],
+            [
+              5.1841619,
+              7.2409627
+            ],
+            [
+              5.1841423,
+              7.240983
+            ],
+            [
+              5.1841709,
+              7.2410103
+            ],
+            [
+              5.1840093,
+              7.2411766
+            ]
+          ]
+        ]
+      },
+      "id": "way/1243397837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1296015365",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "First Mercy Specialist Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.18223,
+              7.2535971
+            ],
+            [
+              5.1820087,
+              7.2530982
+            ],
+            [
+              5.1821334,
+              7.2530224
+            ],
+            [
+              5.1822729,
+              7.253049
+            ],
+            [
+              5.1827637,
+              7.2528561
+            ],
+            [
+              5.1835122,
+              7.2539155
+            ],
+            [
+              5.1827019,
+              7.2544552
+            ],
+            [
+              5.18223,
+              7.2535971
+            ]
+          ]
+        ]
+      },
+      "id": "way/1296015365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11934296154",
+        "amenity": "hospital",
+        "check_date": "2024-05-26",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Olyros Hospital",
+        "name:en": "Olyros Hospital",
+        "opening_hours": "06:00-22:45",
+        "operator:type": "private",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1502071,
+          7.2925929
+        ]
+      },
+      "id": "node/11934296154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11938897152",
+        "amenity": "clinic",
+        "check_date": "2024-05-28",
+        "healthcare": "clinic",
+        "name": "Obaby Clinic",
+        "name:en": "Obaby Clinic",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1527784,
+          7.2863722
+        ]
+      },
+      "id": "node/11938897152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11938975201",
+        "amenity": "hospital",
+        "check_date": "2024-05-28",
+        "healthcare": "hospital",
+        "name": "Christ Bay Consultant Hospital",
+        "name:en": "Christ Bay Consultant Hospital",
+        "opening_hours": "24/7",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1526229,
+          7.2905692
+        ]
+      },
+      "id": "node/11938975201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11940012011",
+        "amenity": "clinic",
+        "check_date": "2024-05-28",
+        "healthcare": "clinic",
+        "name": "God Save Patient Medicine & Provision",
+        "name:en": "God Save Patient Medicine & Provision",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1482822,
+          7.2886539
+        ]
+      },
+      "id": "node/11940012011"
+    }
+  ]
+}

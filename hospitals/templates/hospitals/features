@@ -1,0 +1,18 @@
+Suggested Functionalities:
+Search Functionality:
+Allow users to search for specific hospitals by name or type.
+
+Filter Options:
+Add filter options to filter hospitals by distance, type, services offered, etc.
+
+User Location:
+Automatically detect and use the user's current location as the starting point (with user consent).
+
+Directions:
+Provide directions to the selected hospital from the user's location.
+
+Detailed Hospital Info:
+Show more detailed information about the hospitals when clicked, perhaps in a modal or a sidebar.
+
+Feedback and Ratings:
+Allow users to leave feedback and rate hospitals.
