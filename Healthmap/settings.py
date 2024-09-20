@@ -182,5 +182,13 @@ LEAFLET_CONFIG = {
 #     GEOS_LIBRARY_PATH = '/usr/lib/libgeos_c.so'  # Path to GEOS library on Linux
 
 
-# GDAL Library Path (detected from environment or fallback)
-GDAL_LIBRARY_PATH = os.getenv('GDAL_LIBRARY_PATH', '/usr/lib/libgdal.so')
+# # GDAL Library Path (detected from environment or fallback)
+# GDAL_LIBRARY_PATH = os.getenv('GDAL_LIBRARY_PATH', '/usr/lib/libgdal.so')
+
+import os
+
+# GDAL Library Path (set dynamically via build.sh)
+GDAL_LIBRARY_PATH = os.getenv('GDAL_LIBRARY_PATH')
+
+if GDAL_LIBRARY_PATH is None:
+    raise Exception("GDAL library path is not set!")

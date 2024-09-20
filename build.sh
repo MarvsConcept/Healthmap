@@ -12,16 +12,26 @@
 # exit on error
 # set -o errexit
 
-# Install GDAL and dependencies
+# Install GDAL and its development libraries
 sudo apt-get update
 sudo apt-get install -y gdal-bin libgdal-dev
 
-# Ensure GDAL paths are correctly set
+# Check if GDAL is installed and locate its shared object file
+gdalinfo --version  # Verify GDAL installation
+GDAL_LIB=$(find /usr/lib -name "libgdal.so*" | head -n 1)
+
+if [ -z "$GDAL_LIB" ]; then
+    echo "GDAL library not found!"
+    exit 1
+fi
+
+# Export the found GDAL library path
+export GDAL_LIBRARY_PATH=$GDAL_LIB
+echo "GDAL library path: $GDAL_LIBRARY_PATH"
+
+# Set CPLUS_INCLUDE_PATH and C_INCLUDE_PATH
 export CPLUS_INCLUDE_PATH=/usr/include/gdal
 export C_INCLUDE_PATH=/usr/include/gdal
-
-# Optional: find the GDAL path dynamically if it differs
-export GDAL_LIBRARY_PATH=$(gdal-config --libs | awk '{print $1}' | sed 's/-L//g')
 
 # Install Python dependencies
 pip install -r requirements.txt
