@@ -165,6 +165,18 @@ LEAFLET_CONFIG = {
     'ATTRIBUTION_PREFIX': 'Powered by Akure Hospitals',
 }
 
-# Set GDAL and GEOS library paths
-GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal309.dll'  # Replace XXX with the version number
-GEOS_LIBRARY_PATH = r'C:\OSGeo4W\bin\geos_c.dll'
+# # Set GDAL and GEOS library paths
+# GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal309.dll'  # Replace XXX with the version number
+# GEOS_LIBRARY_PATH = r'C:\OSGeo4W\bin\geos_c.dll'
+
+import platform
+
+# Detect if running on Windows or Linux
+if platform.system() == 'Windows':
+    # Local development (Windows)
+    GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal309.dll'
+    GEOS_LIBRARY_PATH = r'C:\OSGeo4W\bin\geos_c.dll'
+else:
+    # Production (Linux on Render)
+    GDAL_LIBRARY_PATH = '/usr/lib/libgdal.so'  # Path to GDAL library on Linux
+    GEOS_LIBRARY_PATH = '/usr/lib/libgeos_c.so'  # Path to GEOS library on Linux
