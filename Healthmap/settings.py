@@ -29,7 +29,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = []
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'https://healthmap.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'https://healthmap.onrender.com', 'healthmap.onrender.com']
 
 # Application definition
 
