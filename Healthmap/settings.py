@@ -100,32 +100,43 @@ WSGI_APPLICATION = 'Healthmap.wsgi.application'
 #     }
 # }
 
-
-import os
-import dj_database_url
-
-if os.getenv('RENDER'):
-    DATABASE_URL = os.getenv('DATABASE_URL')
-    print(f"Using DATABASE_URL: {DATABASE_URL}")
-    DATABASES = {
-        'default': dj_database_url.config(
-            default=DATABASE_URL,
-            conn_max_age=600,  # Optional: Adjust connection pooling
-            ssl_require=True   # Optional: If you need SSL for connections
-        )
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'NAME': 'healthmap',
+        'USER': 'healthmap_user',
+        'PASSWORD': 'RsH3CAXT4D0e7IYGh3GM618NUDgsnypj',
+        'HOST': 'dpg-crn0vge8ii6s73ejcjng-a.oregon-postgres.render.com',  # e.g., dpg-crn0vge8ii6s73ejcjng-a
+        'PORT': '5432',    # usually 5432
     }
-    DATABASES['default']['ENGINE'] = 'django.contrib.gis.db.backends.postgis'  # Ensure PostGIS is set
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.contrib.gis.db.backends.postgis',
-            'NAME': 'Healthmap',
-            'USER': 'postgres',
-            'PASSWORD': 'marvade',
-            'HOST': 'localhost',
-            'PORT': '5432',
-        }
-    }
+}
+
+
+# import os
+# import dj_database_url
+
+# if os.getenv('RENDER'):
+#     DATABASE_URL = os.getenv('DATABASE_URL')
+#     print(f"Using DATABASE_URL: {DATABASE_URL}")
+#     DATABASES = {
+#         'default': dj_database_url.config(
+#             default=DATABASE_URL,
+#             conn_max_age=600,  # Optional: Adjust connection pooling
+#             ssl_require=True   # Optional: If you need SSL for connections
+#         )
+#     }
+#     DATABASES['default']['ENGINE'] = 'django.contrib.gis.db.backends.postgis'  # Ensure PostGIS is set
+# else:
+#     DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.contrib.gis.db.backends.postgis',
+#             'NAME': 'Healthmap',
+#             'USER': 'postgres',
+#             'PASSWORD': 'marvade',
+#             'HOST': 'localhost',
+#             'PORT': '5432',
+#         }
+#     }
 
 
 # Password validation
