@@ -1,20 +1,10 @@
-# #!/usr/bin/env bash
-# # exit on error
-# set -o errexit
-
-# pip install -r requirements.txt
-
-# python manage.py collectstatic --no-input
-# python manage.py migrate
-
-
 #!/usr/bin/env bash
 # exit on error
-# set -o errexit
+set -o errexit
 
 # Install GDAL and its development libraries
-sudo apt-get update
-sudo apt-get install -y gdal-bin libgdal-dev
+apt-get update
+apt-get install -y gdal-bin libgdal-dev
 
 # Check if GDAL is installed and locate its shared object file
 gdalinfo --version  # Verify GDAL installation
@@ -39,3 +29,5 @@ pip install -r requirements.txt
 # Run Django management commands
 python manage.py collectstatic --no-input
 python manage.py migrate
+
+echo "GDAL library path set to: $GDAL_LIBRARY_PATH" >> build_log.txt
