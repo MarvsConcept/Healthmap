@@ -106,10 +106,15 @@ import dj_database_url
 
 if os.getenv('RENDER'):
     DATABASE_URL = os.getenv('DATABASE_URL')
-    print(f"Using DATABASE_URL: {DATABASE_URL}")  # Add logging here
+    print(f"Using DATABASE_URL: {DATABASE_URL}")
     DATABASES = {
-        'default': dj_database_url.config(default=DATABASE_URL)
+        'default': dj_database_url.config(
+            default=DATABASE_URL,
+            conn_max_age=600,  # Optional: Adjust connection pooling
+            ssl_require=True   # Optional: If you need SSL for connections
+        )
     }
+    DATABASES['default']['ENGINE'] = 'django.contrib.gis.db.backends.postgis'  # Ensure PostGIS is set
 else:
     DATABASES = {
         'default': {
