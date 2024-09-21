@@ -219,3 +219,7 @@ GDAL_LIBRARY_PATH = os.getenv('GDAL_LIBRARY_PATH')
 
 if GDAL_LIBRARY_PATH is None:
     raise Exception("GDAL library path is not set!")
+
+# You can also add the path to your settings for further use
+os.environ['GDAL_LIBRARY_PATH'] = GDAL_LIBRARY_PATH
+
