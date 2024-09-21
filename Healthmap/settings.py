@@ -113,6 +113,7 @@ DATABASES = {
         ssl_require=True   # Optional: If you need SSL for connections
     )
 }
+DATABASES['default']['ENGINE'] = 'django.contrib.gis.db.backends.postgis'
 
 # if os.getenv('RENDER'):
 #     DATABASE_URL = os.getenv('DATABASE_URL')
