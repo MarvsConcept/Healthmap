@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # exit on error
-set -o errexit
+# set -o errexit
 
 # Install GDAL and its development libraries
 apt-get update
