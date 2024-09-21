@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # exit on error
-set -o errexit
+# set -o errexit
 
 echo "Starting build process..."
 
