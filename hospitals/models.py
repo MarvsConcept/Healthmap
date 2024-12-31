@@ -17,6 +17,7 @@ from django.contrib.gis.db import models as gis_models
 from django.contrib.gis.geos import Point
 from django.core.validators import MinValueValidator, MaxValueValidator
 
+#models
 class Hospital(models.Model):
     name = models.CharField(max_length=255)
     address = models.CharField(max_length=255)
