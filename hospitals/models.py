@@ -1,3 +1,17 @@
+# from django.contrib.gis.db import models
+
+# class Hospital(models.Model):
+#     name = models.CharField(max_length=255)
+#     address = models.CharField(max_length=255)
+#     location = models.PointField()
+#     contact_number = models.CharField(max_length=20)
+
+#     def __str__(self):
+#         return self.name
+
+# # hospitals/models.py
+
+
 from django.db import models
 from django.contrib.gis.db import models as gis_models
 from django.contrib.gis.geos import Point
